@@ -34,7 +34,7 @@
 
   
     // Global Configuration
-    const PORT = process.env.PORT
+    const PORT = process.env.PORT || 3000
     const MONGO_URI =process.env.MONGO_URI
     const db = mongoose.connection;
     
