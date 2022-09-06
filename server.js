@@ -7,13 +7,14 @@
   //Initialize the local directory as a Git  repository.
 3. git add .
   //Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
-4.  commit -m 'Added my projectgit'
+4. git commit -m 'Added my project'
   //Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
-5. git remote add origin git@g3dC0d3R/m2w1d3_First_Express_HW.git
+5. git branch -M main
+6. git remote add origin git@g3dC0d3R/m2w1d3_First_Express_HW.git
   //Sets the new remote
-6. git remote -v 
+7. git remote -v 
   //Verifies the new remote URL
-6. git push -u -f origin main
+8. git push -u -f origin main
   //Pushes the changes in your local repository up to the remote repository you specified as the origin. The -f (or --force) flag stands for force. This will automatically overwrite everything in the remote directory.  
 */
 
