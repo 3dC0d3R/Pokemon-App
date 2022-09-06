@@ -34,7 +34,7 @@
 
   
     // Global Configuration
-    const port = process.env.PORT
+    const PORT = process.env.PORT
     const MONGO_URI =process.env.MONGO_URI
     const db = mongoose.connection;
     
@@ -140,6 +140,6 @@
 
 
   // H. ---> Listen on port defined in .env (See C.)
-  app.listen(port, function() {
-  console.log('Listening on port: ' + port);
+  app.listen(PORT, function() {
+  console.log('Listening on port: ' + PORT);
   });
