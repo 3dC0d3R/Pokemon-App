@@ -8,17 +8,12 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon server.js --exec babel-node",
-    "heroku-postbuild": "npm install",
-    "start": "babel-node server.js" 
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/core": "^7.19.0",
-    "@babel/node": "^7.18.10",
-    "@babel/preset-env": "^7.19.0",
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "express-react-views": "^0.11.0",
