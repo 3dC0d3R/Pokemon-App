@@ -140,6 +140,6 @@
 
 
   // H. ---> Listen on port defined in .env (See C.)
-  app.listen(PORT, function() {
-  console.log('Listening on port: ' + PORT);
-  });
+  app.listen(PORT, () => {
+    console.log('Listening on port: ', PORT)
+  })
